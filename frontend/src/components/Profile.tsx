@@ -94,6 +94,7 @@ export const Profile = () => {
           email: email,
           address: address,
         };
+        // On main
         // Submit the form data to the backend
         const updatePromise = updateUser(info);
 
